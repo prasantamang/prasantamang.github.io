@@ -1,79 +1,134 @@
 *{
     margin: 0;
+    padding: 0;
 }
 body{
-    background-color: gray;
-    width: 80%;
-    margin: auto;
+    background-color: orange;
 }
-table{
-    display: inline-block;
+.page-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+a:hover{
+    color: whitesmoke;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-right: 10px;
+}
+th, td {
+     padding: 10px;
+}
+th {
+    background-color: lightpink;
+}
+td:hover{
+    background-color: blueviolet;
+}
+.header{
+    background-color: purple;
+    width: 100%;
+    padding: 30px 0px;
+    border-radius: 10px;
+}
+.header-text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.body{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: lightyellow;
+    border-radius: 10px;
 }
 .personal-information{
-    width: 44%;
+    width: 23%;
     margin: auto;
+    padding: 10px 0px;
+}
+.profile-text{
+    font-size: 40px;
+    text-align: center;
+}
+.body-header{
+    margin: auto;
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+    background-color: violet;
+    border-radius: 10px;
+}
+.body-assignment{
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 20px;   
+    border-radius: 10px;
+    background-color: yellowgreen;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;   
+    overflow-y : scroll;
 }
 .assignment-1{
-    width: 17%;
-    padding: 5px 0px;
-    padding-right: 5px;
-    display: inline-block;
+    color: black;
+    width: 240px;
+    margin-right: 10px;
 }
 .assignment-2{
-    width: 17%;
-    padding: 5px 0px;
-    padding-right: 5px;
-    display: inline-block;
-    vertical-align: top;
+    color: black;
+    width: 240px;
+    margin-right: 10px;
 }
 .assignment-3{
-    width: 17%;
-    padding: 5px 0px;
-    padding-right: 5px;
-    display: block;
+    color: black;
+    width: 240px;
+    margin-right: 10px;
 }
 .assignment-4{
-    width: 17%;
-    padding: 5px 0px;
-    padding-right: 5px;
-    display: inline-block;
-    vertical-align: top;
-}
-.assignment-5{
-    width: 17%;
-    padding: 5px 0px;
-    padding-right: 5px;
-    display: inline-block;
+    color: black;
+    width: 240px;
+    margin-right: 10px;
 }
 .assignment-6{
-    width: 17%;
-    padding: 5px 0px;
-    padding-right: 5px;
-    display: inline-block;
-    vertical-align: top;
-}
-.assignment-7{
-    width: 17%;
-    padding: 5px 0px;
-    padding-right: 5px;
-    display: inline-block;
+    color: black;
+    width: 240px;
+    margin-right: 10px;
 }
 .m2-assignment{
-    width: 17%;
-    padding: 5px 0px;
-    padding-right: 5px;
-    display: inline-block;
+    color: black;
+    width: 240px;
+    margin-right: 10px;
 }
 .m3-assignment{
-    width: 17%;
-    padding: 5px 0px;
-    padding-right: 5px;
-    display: inline-block;
+    color: black;
+    width: 240px;
+    margin-right: 10px;
 }
 .js-box{
-    width: 17%;
-    padding: 5px 0px;
-    padding-right: 5px;
-    display: inline-block; 
+    color: black;
+    width: 240px;
+    margin-right: 10px;
+}
+.footer{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: purple;
+    border-radius: 5px;
+}
+.footer-text{
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
 
