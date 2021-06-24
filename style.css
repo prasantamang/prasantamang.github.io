@@ -4,10 +4,7 @@
 }
 body{
     background-color: orange;
-<<<<<<< HEAD
-    font-family:"Comic Sans MS", "Comic Sans", cursive;;
-=======
->>>>>>> 5f62dff63c2903f422647cb2aca09262d85fe2fa
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
 }
 .page-wrapper{
     width: 100%;
