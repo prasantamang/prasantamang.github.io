@@ -13,10 +13,10 @@ body{
 }
 a{
     text-decoration: none;
-    color: rebeccapurple;
+    color: white;
 }
 a:hover{
-    color: whitesmoke;
+    color: purple;
 }
 table, th, td {
     border: 1px solid black;
@@ -115,7 +115,23 @@ td:hover{
     width: 240px;
     margin-right: 10px;
 }
-.js-box{
+
+.jsDay2-box{
+    color: black;
+    width: 240px;
+    margin-right: 10px;
+}
+.Ojects-box{
+    color: black;
+    width: 240px;
+    margin-right: 10px;
+}
+.JavaScriptsBasicDay2-box{
+    color: black;
+    width: 240px;
+    margin-right: 10px;
+}
+.Inputaddlistcss-box{
     color: black;
     width: 240px;
     margin-right: 10px;
